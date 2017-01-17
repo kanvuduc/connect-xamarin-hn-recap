@@ -9,7 +9,7 @@ namespace XamarinRecap
 	public partial class App : Application
 	{
 		public static bool AzureNeedsSetup => AzureMobileAppUrl == "https://CONFIGURE-THIS-URL.azurewebsites.net";
-		public static string AzureMobileAppUrl = "http://localhost:5000";
+        public static string AzureMobileAppUrl = "https://xamarin-recap.azurewebsites.net";//"http://localhost:5000";
 		public static IDictionary<string, string> LoginParameters => null;
 
 		public App()
