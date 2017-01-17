@@ -2,15 +2,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26020.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XamarinRecap", "XamarinRecap\XamarinRecap.shproj", "{1A84E4B6-E646-4E4A-85FA-85FE3B41817D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinRecap.iOS", "iOS\XamarinRecap.iOS.csproj", "{6ACE49B8-102B-4992-8364-2A9DAD157D08}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinRecap.Droid", "Droid\XamarinRecap.Droid.csproj", "{EDF8D567-B9ED-4A96-8D38-43D807FB9532}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinRecap.UITests", "UITests\XamarinRecap.UITests.csproj", "{BBC25335-D897-4571-9FD0-443A4455C125}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinRecap.MobileAppService", "MobileAppService\XamarinRecap.MobileAppService.csproj", "{6166A77A-C9F5-45C2-987A-4FA89365B5A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinRecap.MobileAppService", "MobileAppService\XamarinRecap.MobileAppService.csproj", "{6166A77A-C9F5-45C2-987A-4FA89365B5A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinRecapPcl", "XamarinRecapPcl\XamarinRecapPcl.csproj", "{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -75,6 +75,18 @@ Global
 		{6166A77A-C9F5-45C2-987A-4FA89365B5A2}.Release|iPhone.Build.0 = Release|Any CPU
 		{6166A77A-C9F5-45C2-987A-4FA89365B5A2}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{6166A77A-C9F5-45C2-987A-4FA89365B5A2}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}.Release|iPhone.Build.0 = Release|Any CPU
+		{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

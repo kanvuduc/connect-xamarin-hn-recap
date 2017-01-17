@@ -205,7 +205,12 @@
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
   </ItemGroup>
-  <Import Project="..\XamarinRecap\XamarinRecap.projitems" Label="Shared" Condition="Exists('..\XamarinRecap\XamarinRecap.projitems')" />
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinRecapPcl\XamarinRecapPcl.csproj">
+      <Project>{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}</Project>
+      <Name>XamarinRecapPcl</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
   <Import Project="..\packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

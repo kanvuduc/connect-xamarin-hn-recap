@@ -177,7 +177,12 @@
     <AndroidResource Include="Resources\layout\Toolbar.axml" />
     <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
-  <Import Project="..\XamarinRecap\XamarinRecap.projitems" Label="Shared" Condition="Exists('..\XamarinRecap\XamarinRecap.projitems')" />
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinRecapPcl\XamarinRecapPcl.csproj">
+      <Project>{51D5F22C-2A6F-4EC8-A86E-76D40D09AC30}</Project>
+      <Name>XamarinRecapPcl</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
